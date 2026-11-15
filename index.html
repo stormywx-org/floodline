@@ -46,6 +46,14 @@ footer{background:var(--navy);color:#fff;text-align:center;padding:28px 20px}
 footer .logo{width:90px;height:90px;margin:0 auto}
 footer a{color:#fff;font-weight:700}
 footer p{margin:8px 0}
+footer .staff{max-width:520px;margin:26px auto 0;padding:20px 0 4px;border-top:1px solid rgba(255,255,255,.25)}
+footer .staff-h{margin:0 0 10px;font-size:14px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#c9d4e5}
+footer a.staff-btn{display:flex;align-items:center;justify-content:center;gap:12px;min-height:64px;padding:12px 18px;border:2px solid #fff;border-radius:12px;background:transparent;color:#fff;text-decoration:none;font-weight:700;font-size:19px;line-height:1.25;text-align:left}
+footer a.staff-btn small{display:block;font-weight:400;font-size:15px;color:#c9d4e5;margin-top:2px}
+footer a.staff-btn svg{flex:none}
+footer a.staff-btn:hover,footer a.staff-btn:focus{background:#fff;color:var(--navy);outline:3px solid #f2a900;outline-offset:2px}
+footer a.staff-btn:hover small,footer a.staff-btn:focus small{color:var(--muted)}
+footer .staff-note{margin:10px 0 0;font-size:15px;color:#c9d4e5}
 footer .admin{margin-top:18px;font-size:12px}
 footer .admin a{color:#9fb0c8;font-weight:400;text-decoration:none}
 footer .admin a:hover,footer .admin a:focus{text-decoration:underline;color:#cfd8e6}
@@ -107,7 +115,11 @@ footer .admin .lk{vertical-align:-1px;margin-right:3px}
 <div class="logo" role="img" aria-label="Stormy Weather Response Force logo"></div>
 <p><b>Stormy Weather Response Force (SWRF)</b></p>
 <p><a href="https://www.stormywx.org">www.stormywx.org</a></p>
-<p class="admin"><a href="https://script.google.com/macros/s/AKfycbxo5DXgUIcYAmRC0RKNX1EV05T3dU-dqGtApthBegKRbS5XnIonsCbMwtaHWF2WHzFE9Q/exec" target="_blank" rel="noopener noreferrer nofollow"><svg class="lk" width="11" height="11" viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M4 7V5a4 4 0 1 1 8 0v2h1a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1zm2 0h4V5a2 2 0 1 0-4 0v2z"/></svg> Admin login (SWRF staff)</a></p>
+<div class="staff">
+<p class="staff-h">For SWRF volunteers only</p>
+<a class="staff-btn" href="review.html" rel="nofollow"><svg width="20" height="20" viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M4 7V5a4 4 0 1 1 8 0v2h1a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1zm2 0h4V5a2 2 0 1 0-4 0v2z"/></svg><span>SWRF Volunteers: Review Requests<small>For people with a stormywx.org email</small></span></a>
+<p class="staff-note">Need flood help? Use the request form above, not this button.</p>
+</div>
 </footer>
 </body>
 </html>
